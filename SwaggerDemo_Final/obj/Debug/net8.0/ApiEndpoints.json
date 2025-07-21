@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "SwaggerDemo.Controllers.HelloController",
+    "Method": "Get",
+    "RelativePath": "api/Hello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SwaggerDemo.Controllers.HelloController",
+    "Method": "Post",
+    "RelativePath": "api/Hello",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SwaggerDemo.Controllers.HelloController",
+    "Method": "Put",
+    "RelativePath": "api/Hello",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SwaggerDemo.Controllers.HelloController",
+    "Method": "Delete",
+    "RelativePath": "api/Hello/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
